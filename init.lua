@@ -7,3 +7,4 @@ require("yapa.plugins.nvim-tree")
 require("yapa.plugins.lualine")
 require("yapa.plugins.telescope")
 require("yapa.plugins.nvim-cmp")
+require'lspconfig'.clangd.setup{}
